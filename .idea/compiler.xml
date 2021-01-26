@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nacos-boot-config" />
+        <module name="nacos-cloud-consumer" />
+        <module name="nacos-cloud-provider" />
+        <module name="nacos-cloud-config" />
+        <module name="nacos-boot-discovery" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nacos-spring-cloud-consumer" target="8" />
+      <module name="nacos-spring-cloud-provider" target="8" />
+      <module name="nacos-spring-cloud-test (2)" target="8" />
+      <module name="test1" target="8" />
+      <module name="test2" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="nacos-boot-config" options="-parameters" />
+      <module name="nacos-boot-discovery" options="-parameters" />
+      <module name="nacos-cloud-config" options="-parameters" />
+      <module name="nacos-cloud-consumer" options="-parameters" />
+      <module name="nacos-cloud-provider" options="-parameters" />
+      <module name="nacos-spring-cloud-consumer" options="-parameters" />
+      <module name="nacos-spring-cloud-provider" options="-parameters" />
+      <module name="nacos-spring-cloud-test (2)" options="-parameters" />
+      <module name="test1" options="-parameters" />
+      <module name="test2" options="-parameters" />
+    </option>
+  </component>
+</project>
